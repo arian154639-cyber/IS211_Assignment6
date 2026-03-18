@@ -6,7 +6,7 @@ I tried to keep this concise, so instead of repeating formulas, I used base unit
 class ConversionNotPossible(Exception):
     pass
 
-def temperature_and_distance_converter(fromUnit, toUnit, value):
+def TemperatureAndDistanceConverter(fromUnit, toUnit, value):
     temperature_units = {"Celsius", "Fahrenheit", "Kelvin"}
     distance_units = {"Meters", "Yards", "Miles"}
 
