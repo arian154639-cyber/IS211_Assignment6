@@ -1,3 +1,7 @@
+"""
+This was simple, just plugging in the correct forumlas while keeping the structure of conversions.py.
+"""
+
 def convertCelsiusToKelvin(celsius):
     """Takes in a float representing a Celsius measurement, and returns that temperature converted into Kelvins"""
     kelvins = celsius + 273.15
@@ -10,3 +14,27 @@ def convertCelsiusToFahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     
     return fahrenheit
+
+def convertFahrenheitToCelsius(fahrenheit):
+    """Takes in a float representing a Fahrenheit measurement, and returns that temperature converted into Celsius"""
+    celsius = (fahrenheit - 32) * 5/9
+
+    return celsius
+
+def convertFahrenheitToKelvin(fahrenheit):
+    """Takes in a float representing a Fahrenheit measurement, and returns that temperature converted into Kelvin"""
+    kelvins = (fahrenheit - 32) * 5/9 + 273.15
+
+    return kelvins
+
+def convertKelvinToFahrenheit(kelvins):
+    """Takes in a float representing a Kelvin measurement, and returns that temperature converted into Fahrenheit"""
+    fahrenheit = (kelvins - 273.15) * 9/5 + 32
+
+    return fahrenheit
+
+def convertKelvinToCelsius(kelvins):
+    """Takes in a float representing a Kelvin measurement, and returns that temperature converted into Celsius"""
+    celsius = kelvins - 273.15
+
+    return celsius
