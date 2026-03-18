@@ -3,7 +3,7 @@ I tried keeping the code readable, I used subTest and verbosity for specific fai
 information, though these only work in terminal, it won't work if you use VSCode's
 "run" button. I used "exit=False" so that the user won't get kicked out. This is 
 basically the same script as tests.py but now it uses conversions2.py so the conversions
-actually work, and there's six tests now instead of just two.
+actually work, and there's six tests now instead of just two. "verbosity=2" adds more detail.
 """
 
 import unittest

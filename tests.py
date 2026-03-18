@@ -2,7 +2,8 @@
 I tried keeping the code readable, I used subTest and verbosity for specific failure
 information, though these only work in terminal, it won't work if you use VSCode's
 "run" button. I used "exit=False" so that the user won't get kicked out, without it,
-that kept happening (I kept getting system exits).
+that kept happening (I kept getting system exits). "verbosity=2" is there for additional
+details.
 """
 
 import unittest
