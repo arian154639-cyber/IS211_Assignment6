@@ -1,5 +1,5 @@
 """
-I tried to keep this concise, so isntead of repeating formulas, I used base units
+I tried to keep this concise, so instead of repeating formulas, I used base units
 (celsius and meters) to keep the code short.
 """
 
